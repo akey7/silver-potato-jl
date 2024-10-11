@@ -1,6 +1,6 @@
 # SilverPotato.jl Documentation
 
 ```@autodocs
-Modules = [MaxwellBoltzmann]
+Modules = [MaxwellBoltzmann, GeneralizedBorn]
 Order   = [:function]
 ```
