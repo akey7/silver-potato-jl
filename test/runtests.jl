@@ -1,7 +1,7 @@
 using Test
 
-include("../src/generalized_born_model.jl")
-using .GeneralizedBornModel
+include("../src/GeneralizedBorn.jl")
+using .GeneralizedBorn
 
 function setup_test_environmment()
     radius = 5.0
