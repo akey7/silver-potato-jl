@@ -7,6 +7,15 @@ export maxwell_pdf, maxwell_rvs
 kb = 1.380649e-23
 kg_per_amu = 1.661e-27
 
+"""
+    scale(temp_k::Float64, mass_amu::Float64)
+
+Calculate scaling coefficient for Maxwell PDF
+
+# Arguments
+- `temp_k::Float64`: Temperature in Kelvin
+- `mass_amu::Float64`: Mass in amu
+"""
 function scale(temp_k::Float64, mass_amu::Float64)
     sqrt(2*kb*temp_k/mass_amu/kg_per_amu)
 end
