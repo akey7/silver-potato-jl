@@ -2,5 +2,5 @@
 
 ```@autodocs
 Modules = [MaxwellBoltzmann]
-Order   = [:function, :type]
+Order   = [:function]
 ```
