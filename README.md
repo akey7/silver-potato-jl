@@ -18,4 +18,4 @@ See also [Pkg.jl documentation](https://pkgdocs.julialang.org/v1/managing-packag
 
 ### Building documentation
 
-To build documentation, follow the steps at: [Building an Empty Document](https://documenter.juliadocs.org/stable/man/guide/#Building-an-Empty-Document) and [Adding Some Docstrings](https://documenter.juliadocs.org/stable/man/guide/#Adding-Some-Docstrings).
+To build documentation, follow the steps at: [Building an Empty Document](https://documenter.juliadocs.org/stable/man/guide/#Building-an-Empty-Document) and [Adding Some Docstrings](https://documenter.juliadocs.org/stable/man/guide/#Adding-Some-Docstrings). Also see [@autodocs block](https://documenter.juliadocs.org/stable/man/syntax/#@autodocs-block)
